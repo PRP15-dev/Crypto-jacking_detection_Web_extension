@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "Cryptonate",
+  "version": "0.1.1",
+    "background": {
+        "service_worker": "service_worker.js",
+        "type": "module"
+  },
+  "permissions": [
+      "nativeMessaging",
+      "storage",
+      "webRequest",
+      "declarativeNetRequest",
+      "storage"
+
+  ],
+  "host_permissions": [
+      "https://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["Content.js"]
+    }
+  ],
+  "content_security_policy": {
+        "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+  },
+  "icons": { "48": "/images/logo.png", "128": "/images/logo.png" },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_title": "Cryptonate Web Extension"
+  }
+}
