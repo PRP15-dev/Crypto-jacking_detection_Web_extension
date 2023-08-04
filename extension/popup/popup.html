@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Cryptonate</title>
+    <link rel="stylesheet" type="text/css" href="popup.css" />
+  </head>
+  <body>
+    <div id="titleBar">
+      <img id="logo" src="../images/logo.png" width="80px"/>
+      <h1 id="titleText">Cryptonate Web Extension</h1>
+    </div>
+    <!-- <h1>Crypto Jacking Prediction</h1> -->
+    <table id="pred_table">
+      <thead>
+        <tr>
+          <th>Prediction</th>
+          <!-- <th>pkt_size</th>
+          <th>Port</th> -->
+        </tr>
+      </thead>
+      <tbody id="packet-table-body">
+      </tbody>
+    </table>
+
+    <div class="content">
+      <!-- <p id="statusText">No CryptoJacking has been detected on this website!</p> -->
+      <div class="buttons">
+        <div class="help"><button id="btnHelp"><a href="help.html" target="_blank">Help</a></button></div>
+      </div>
+    </div>
+    <!-- <script src="help.js"></script> -->
+    <script src="popup.js"></script>
+  </body>
+</html>
