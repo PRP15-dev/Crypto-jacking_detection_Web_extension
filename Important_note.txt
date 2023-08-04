@@ -1,5 +1,5 @@
 Register native manifest file:
-in your cmd as you open (i.e. do not chang path let it be C:\Users\pranay>)
+in your cmd as you open 
 REG ADD "HKCU\Software\Google\Chrome\NativeMessagingHosts\com.my_company.my_application" /ve /t REG_SZ /d "C:\path\to\nmh-manifest.json" /f
 
 
