@@ -26,14 +26,14 @@ To use Cryptonate, simply browse the web as usual. Cryptonate will run in the ba
 
 Cryptonate is based on our research paper, “Cryptonate: Crypto-Jacking Web Extension,” which was published by Springer and presented at the prestigious 5th International Conference on Computational Intelligence in Pattern Recognition (CIPR 2023). In our paper, we show how we developed an innovative solution to combat crypto-jacking using a combination of static and dynamic methods. We also demonstrate how our machine learning model outperforms traditional techniques in detecting crypto-jacking websites.
 
-You can read our paper [here][https://doi.org/10.1007/978-981-99-3734-9_29].
+You can read our paper at <https://doi.org/10.1007/978-981-99-3734-9_29>
 
 
 ## Research Paper
 
 Cryptonate is based on our research paper, “Cryptonate: Crypto-Jacking Web Extension,” which was published by Springer and presented at the prestigious 5th International Conference on Computational Intelligence in Pattern Recognition (CIPR 2023). In our paper, we show how we developed an innovative solution to combat crypto-jacking using a combination of static and dynamic methods. We also demonstrate how our machine learning model outperforms traditional techniques in detecting crypto-jacking websites.
 
-You can read our paper [here][https://doi.org/10.1007/978-981-99-3734-9_29] or cite it using the following BibTeX entry:
+You can read our paper at <https://doi.org/10.1007/978-981-99-3734-9_29> or cite it using the following BibTeX entry:
 
 ```
 @InProceedings{10.1007/978-981-99-3734-9_29,
